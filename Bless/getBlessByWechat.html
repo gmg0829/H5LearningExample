@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >  
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+   </head>
+	<body class="body_" >
+		<div id="bless">
+		     <div id="bless-t">
+		     	<ul>
+		     		<li class="li_">
+		     			<input type="text" placeholder="输入你的手机号" id="phone" name="phone"  style="border:0px;"/>
+		     		</li>
+		     		<li>
+		     			<input type="text" placeholder="输入验证码" id="code"  style="border:0px;"/>
+		     			<button style="border:0px;" id="button">获取验证码</button>
+		     		</li>
+		     		<li>
+		     			<a href=""><img src="img/reciButton.png"></a>
+		     		</li>
+		     	</ul>
+			 </div>
+			 <div id="bless-f">
+			   <a href=""><img src="img/downButton.png" /></a>
+			 </div>
+		</div>	
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	<script>
+    $(document).ready(function () {
+    	$('body').css({'height':$(window).height()})
+    	});
+	</script>
+</html>

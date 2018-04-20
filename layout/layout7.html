@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.demo{display: flex;flex-direction: column;}
+			.demo div{flex: 1;}
+			.content{display: flex;}
+			.header,.left,.right,.footer{flex: 0 0 20%!important;}
+			.header,.footer{background: brown;}
+			.left,.right{background: red;}
+			.strem{display: flex;flex-wrap: wrap;width: 300px;height: 300px;align-content: flex-start;background: bisque;}
+			.item{flex: 0 0 33.233%;height: 80px;box-sizing: border-box;border:#1B6D85 1px solid;}
+		</style>
+	</head>
+	<body>
+		<div class="demo">
+			<div class="header">头部</div>
+		    <div class="content">
+		    	<div class="left">左</div>
+                <div class="middle">中</div>
+		    	<div class="right">右</div>
+
+		    </div>
+			<div class="footer">底部</div>
+
+		</div>
+		<div class="strem">
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+		</div>
+	</body>
+</html>

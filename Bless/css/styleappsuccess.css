@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0 0;padding:0 0;}
+div{margin:0 auto;height: 100%;width: 100%;}
+#appblesssuccess{background-size:100% 100%; background-image: url(../img/appback.png);background-repeat:no-repeat; position:fixed; }
+#appblesssuccess #appblesssuccess-t{width: 100%;height: 60%;}
+#appblesssuccess #appblesssuccess-t .money{height: 15%;float: left;width: 40%;margin-left: 30%;font-size: 70px;color: brown;position: absolute;top:30%;}
+#appblesssuccess #appblesssuccess-t .info{height: 10%;width:50%;float: left;font-size: 30px;position: absolute;top:14%;left: 24%;color: white;}
+#appblesssuccess #appblesssuccess-t .info .p1{margin-top:10%;height: 60%;text-align: center;}
+#appblesssuccess #appblesssuccess-t .money p{text-align: center;margin-top:23%;}
+#appblesssuccess #appblesssuccess-f{width:70%;height: 20%;float: left;margin-left: 20%;}
+#appblesssuccess-f p{height: 10%;font-size: 40px;color: #fac216;}
+#appblesssuccess-f a{color: white;text-decoration: underline;}
+#appblesssuccess-f img{margin-left: 20%;}
+#footer{width: 100%;height: 20%;float: left;}
+#footer img{width: 100%;height:100%;}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+div{margin:0 auto;height:100%;}
+.body_{background:url(../img/wehcatBlessBack.png);background-repeat: no-repeat; background-size: 100% 100%;}
+#bless #bless-t{width: 100%;height: 60%;}
+#bless-t ul{width: 100%;height: 60%;float: left;margin-top:20%;margin-top:30%;}
+#bless-t ul .li_{}
+#bless-t ul li{list-style: none;float: left;width: 90%;height: 20%;margin-top: 5%;margin-left: -5%;}
+#bless-t ul li input{padding-left:2%;vertical-align: middle;}
+#bless-t  #phone{width: 95%;height:40px;font-size: 15px;background: url(../img/phoneFrame.png);background-size: 100% 40px;background-repeat: no-repeat;}
+#bless-t  #code{float:left;width: 60%;height: 40px;font-size: 15px;background: url(../img/codeFrame.png);background-size: 100% 40px;background-repeat: no-repeat;}
+#bless-t button{float:left;width: 30%;height:40px;color:red;font-size: 15px;background:url(../img/getCode.png);background-size: 100% 40px;background-repeat: no-repeat;margin-left: 2%;}
+#bless-t img{width: 90%;}
+#bless #bless-f{width:60%;height: 40%;float: left;margin-left: 10%;}
+#bless-f img{margin-top: 80%;width: 80%;margin-left: 20%;}
